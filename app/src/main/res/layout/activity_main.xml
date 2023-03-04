@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:background="#F8F0F0"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#FFFFFF"
+        android:ems="11"
+        android:textAlignment="center"
+        android:hint="@string/height_hint"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/height2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:ems="11"
+        android:textAlignment="center"
+        android:hint="@string/height_hint2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:ems="11"
+        android:hint="@string/weight_hint"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <Button
+        android:id = "@+id/checks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="@string/check_button"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/results"
+        android:text="@string/results"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
